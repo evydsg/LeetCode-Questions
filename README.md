@@ -43,3 +43,19 @@ Explanation: Your function should return k = 5, with the first five elements of 
 It does not matter what you leave beyond the returned k (hence they are underscores).
 
 ### Exercise 3
+#### Concatenation of Array
+Welcome to the repository for the solution to the "Concatenation of Array" problem (LeetCode Problem #1929). In this problem, we are given an integer array nums of length n, and the task is to create a new array ans by concatenating two copies of the nums array.<br>
+
+##### Problem Description<br>
+Given an integer array nums of length n, you need to create an array ans of length 2n such that ans[i] == nums[i] and ans[i + n] == nums[i] for 0 <= i < n (0-indexed). The resulting array ans is essentially the concatenation of two identical nums arrays.<br>
+
+###### Example 1: <br>
+Input: nums = [1,2,1] <br>
+Output: [1,2,1,1,2,1] <br>  <br>
+
+##### Constraints: <br>
+n == nums.length <br>
+1 <= n <= 1000<br>
+1 <= nums[i] <= 1000<br>
+##### Implementation
+The solution to this problem can be found in the source code provided in this repository. You can use the provided code as a reference or directly incorporate it into your project.
