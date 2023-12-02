@@ -51,7 +51,7 @@ Given an integer array nums of length n, you need to create an array ans of leng
 
 ###### Example 1: <br>
 Input: nums = [1,2,1] <br>
-Output: [1,2,1,1,2,1] <br>  <br>
+Output: [1,2,1,1,2,1] <br>
 
 ##### Constraints: <br>
 n == nums.length <br>
@@ -59,3 +59,21 @@ n == nums.length <br>
 1 <= nums[i] <= 1000<br>
 ##### Implementation
 The solution to this problem can be found in the source code provided in this repository. You can use the provided code as a reference or directly incorporate it into your project.
+
+### Exercise 4
+#### Contains Duplicate
+Welcome to the repository for the solution to the "Contains Duplicate" problem (LeetCode Problem #217). In this problem, we are given an integer array nums, return true if any value appears at least twice in the array, and return false if every element is distinct.<br>
+
+##### Problem Description<br>
+Given an integer array nums, return true if any value appears at least twice in the array, and return false if every element is distinct.<br>
+
+###### Example 1: <br>
+Input: nums = [1,2,3,1] <br>
+Output: true <br>
+
+##### Constraints: <br>
+- 1 <= nums.length <= 105<br>
+- 109 <= nums[i] <= 109<br>
+##### Implementation
+The solution to this problem can be found in the source code provided in this repository. You can use the provided code as a reference or directly incorporate it into your project.
+
