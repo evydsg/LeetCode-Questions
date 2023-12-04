@@ -77,3 +77,19 @@ Output: true <br>
 ##### Implementation
 The solution to this problem can be found in the source code provided in this repository. You can use the provided code as a reference or directly incorporate it into your project.
 
+### Exercise 5
+#### Two Sum
+Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target (LeetCode Problem #1)
+
+You may assume that each input would have exactly one solution, and you may not use the same element twice. <br>
+
+You can return the answer in any order. <br>
+
+###### Example 1: <br>
+Input: nums = [2,7,11,15], target = 9<br>
+Output: [0,1]<br>
+Explanation: Because nums[0] + nums[1] == 9, we return [0, 1]
+
+##### Implementation
+The solution to this problem can be found in the source code provided in this repository. You can use the provided code as a reference or directly incorporate it into your project. I included two different answers for the same exercise being different in their time complexity.
+
