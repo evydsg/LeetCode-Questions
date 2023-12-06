@@ -93,3 +93,39 @@ Explanation: Because nums[0] + nums[1] == 9, we return [0, 1]
 ##### Implementation
 The solution to this problem can be found in the source code provided in this repository. You can use the provided code as a reference or directly incorporate it into your project. I included two different answers for the same exercise being different in their time complexity.
 
+### Exercise 6
+#### Design HashSet
+<b>Overview</b><br>
+This repository contains a Python implementation of a simplified HashSet as described in the problem statement (705. Design HashSet). The goal is to design a HashSet without using any built-in hash table libraries. The provided MyHashSet class supports three main operations: adding a key, checking if a key exists, and removing a key.
+
+##### Implementation
+<b>Class Methods</b>
+__init__(self)<br>
+
+Initializes an empty HashSet.<br>
+add(self, key)<br>
+<br>
+
+Inserts the value key into the HashSet. <br>
+- contains(self, key)
+
+Returns whether the value key exists in the HashSet or not. <br>
+- remove(self, key) <br>
+
+Removes the value key from the HashSet. If the key does not exist, no action is taken. <br>
+<b> Example Usage <br></b>
+
+##### Example usage
+myHashSet = MyHashSet()<br>
+myHashSet.add(1)          # set = [1] <br>
+myHashSet.add(2)          # set = [1, 2]<br>
+print(myHashSet.contains(1))  # True <br>
+print(myHashSet.contains(3))  # False<br>
+myHashSet.add(2)        # set = [1, 2] <br>
+print(myHashSet.contains(2))  # True<br>
+myHashSet.remove(2)      # set = [1]<br>
+print(myHashSet.contains(2))  # False<br>
+
+##### Constraints
+0 <= key <= 10^6 <br>
+At most 10^4 calls will be made to add, remove, and contains.
