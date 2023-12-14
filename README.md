@@ -113,7 +113,6 @@ Returns whether the value key exists in the HashSet or not. <br>
 - remove(self, key) <br>
 
 Removes the value key from the HashSet. If the key does not exist, no action is taken. <br>
-<b> Example Usage <br></b>
 
 ##### Example usage
 myHashSet = MyHashSet()<br>
@@ -129,3 +128,25 @@ print(myHashSet.contains(2))  # False<br>
 ##### Constraints
 0 <= key <= 10^6 <br>
 At most 10^4 calls will be made to add, remove, and contains.
+
+### Exercise 7
+#### Design HashMap
+<b>Overview</b><br>
+This repository contains a Python implementation of a simplified HashMap as described in the problem statement (706. Design HashMap). The goal is to design a HashMap without using any built-in hash table libraries. The provided MyHashMap class supports three main operations: adding a key, checking if a key exists, and removing a key.
+
+##### Implementation
+<b>Class Methods</b>
+__init__(self)<br>
+
+Inserts the value key into the HashMap.<br>
+put(self, key)<br>
+<br>
+
+Returns the value key from the HashMap. <br>
+- get(self, key)
+
+Returns whether the value key exists in the HashSet or not. <br>
+- remove(self, key) <br>
+
+Removes the value key from the HashMap. If the key does not exist, no action is taken. <br>
+
