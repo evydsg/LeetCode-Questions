@@ -150,3 +150,13 @@ Returns whether the value key exists in the HashSet or not. <br>
 
 Removes the value key from the HashMap. If the key does not exist, no action is taken. <br>
 
+### Exercise 7
+#### Range Sum Query (303)
+<b>Overview</b><br>
+You are given an integer array nums and need to handle multiple queries of the following type:<br>
+- Calculate the sum of the elements of nums between indices left and right inclusive where left <= right.
+
+1st Solved in O(n) time complexity
+2nd Solved in O(1) time complexity
+
+
