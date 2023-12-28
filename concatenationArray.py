@@ -5,7 +5,7 @@ class Solution(object):
         :rtype: List[int]
         """
         ans=[]
-        ans += nums * 2
+        ans = nums * 2
        
         return ans
         
