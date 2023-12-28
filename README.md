@@ -156,7 +156,38 @@ Removes the value key from the HashMap. If the key does not exist, no action is 
 You are given an integer array nums and need to handle multiple queries of the following type:<br>
 - Calculate the sum of the elements of nums between indices left and right inclusive where left <= right.
 
-1st Solved in O(n) time complexity
-2nd Solved in O(1) time complexity
+### Exercise 8
+#### Baseball Game (682)
+Welcome to the repository for the solution to the "Baseball Game" problem (LeetCode Problem #682). This problem involves maintaining a record of scores for a baseball game with a unique set of rules. You are given a list of strings operations, where each element represents an operation that must be applied to the record.<br>
+
+##### Problem Description
+In this problem, you are tasked with keeping the scores for a baseball game. You start with an empty record and are given a list of strings operations. Each string is one of the following: <br>
+
+- An integer x: Record a new score of x.
+- '+': Record a new score that is the sum of the previous two scores.
+- 'D': Record a new score that is double the previous score.
+- 'C': Invalidate the previous score, removing it from the record.<br>
+You need to return the sum of all the scores on the record after applying all the operations. The operations are guaranteed to be valid, and the answers, including intermediate results, will fit in a 32-bit integer.
+
+<b>Example 1:</b><br>
+<b>Input:</b> ops = ["5", "2", "C", "D", "+"] <br>
+<b>Output:</b> 30<br>
+
+##### Explanation:
+
+- "5" - Add 5 to the record, record is now [5].
+- "2" - Add 2 to the record, record is now [5, 2].
+- "C" - Invalidate and remove the previous score, record is now [5].
+- "D" - Add 2 * 5 = 10 to the record, record is now [5, 10].
+- "+" - Add 5 + 10 = 15 to the record, record is now [5, 10, 15].<br>
+The total sum is 5 + 10 + 15 = 30.
+
+<b>Constraints:</b></br>
+- The number of operations will be between 1 and 1000.
+- Each operation will be either an integer as a string, 'C', 'D', or '+'.
+- When an operation is an integer, it will be between 1 and 1000.
+
+<b>Implementation</b></br>
+The solution to this problem can be found in the source code provided in this repository. The implementation effectively manages the recording of scores based on the specified operations, utilizing a list to keep track of the scores dynamically. You can use the provided code as a reference or directly incorporate it into your project for similar applications.
 
 
