@@ -191,3 +191,5 @@ The total sum is 5 + 10 + 15 = 30.
 The solution to this problem can be found in the source code provided in this repository. The implementation effectively manages the recording of scores based on the specified operations, utilizing a list to keep track of the scores dynamically. You can use the provided code as a reference or directly incorporate it into your project for similar applications.
 
 
+### 206. Reverse Linked List
+Given the head of a singly linked list, reverse the list, and return the reversed list.
