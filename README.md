@@ -156,7 +156,7 @@ Removes the value key from the HashMap. If the key does not exist, no action is 
 You are given an integer array nums and need to handle multiple queries of the following type:<br>
 - Calculate the sum of the elements of nums between indices left and right inclusive where left <= right.
 
-### Exercise 8
+## Exercise 8
 #### Baseball Game (682)
 Welcome to the repository for the solution to the "Baseball Game" problem (LeetCode Problem #682). This problem involves maintaining a record of scores for a baseball game with a unique set of rules. You are given a list of strings operations, where each element represents an operation that must be applied to the record.<br>
 
@@ -169,7 +169,7 @@ In this problem, you are tasked with keeping the scores for a baseball game. You
 - 'C': Invalidate the previous score, removing it from the record.<br>
 You need to return the sum of all the scores on the record after applying all the operations. The operations are guaranteed to be valid, and the answers, including intermediate results, will fit in a 32-bit integer.
 
-<b>Example 1:</b><br>
+<b>Example 1:</b><br>#
 <b>Input:</b> ops = ["5", "2", "C", "D", "+"] <br>
 <b>Output:</b> 30<br>
 
@@ -189,6 +189,43 @@ The total sum is 5 + 10 + 15 = 30.
 
 <b>Implementation</b></br>
 The solution to this problem can be found in the source code provided in this repository. The implementation effectively manages the recording of scores based on the specified operations, utilizing a list to keep track of the scores dynamically. You can use the provided code as a reference or directly incorporate it into your project for similar applications.
+
+# 20. Valid Parentheses
+
+## Description
+Welcome to the repository for the solution to the "Valid Parentheses" problem. This problem involves determining whether a given string of parentheses, brackets, and curly braces is valid. The validity of the string is determined based on three conditions:
+
+1. Open brackets must be closed by the same type of brackets.
+2. Open brackets must be closed in the correct order.
+3. Every closing bracket must have a corresponding open bracket of the same type.
+
+## Problem Description
+Given a string `s` containing just the characters '(', ')', '{', '}', '[', and ']', determine if the input string is valid.
+
+An input string is valid if:
+
+- Open brackets must be closed by the same type of brackets.
+- Open brackets must be closed in the correct order.
+- Every closing bracket has a corresponding open bracket of the same type.
+
+### Example 1:
+**Input:** `s = "()"`
+**Output:** `true`
+
+### Example 2:
+**Input:** `s = "()[]{}"`
+**Output:** `true`
+
+### Example 3:
+**Input:** `s = "(]"`
+**Output:** `false`
+
+## Constraints:
+- 1 <= s.length <= 10^4
+- `s` consists of parentheses only '()[]{}'.
+
+## Implementation
+The solution to this problem can be found in the source code provided in this repository. The implementation efficiently checks the validity of the parentheses using a stack data structure. You can use the provided code as a reference or directly incorporate it into your project for similar applications.
 
 
 ### 206. Reverse Linked List
