@@ -230,3 +230,37 @@ The solution to this problem can be found in the source code provided in this re
 
 ### 206. Reverse Linked List
 Given the head of a singly linked list, reverse the list, and return the reversed list.
+
+# 155. Min Stack
+
+## Description
+Welcome to the repository for the solution to the "Min Stack" problem. This problem involves designing a stack data structure that supports various operations like push, pop, top, and retrieving the minimum element, all in constant time complexity (O(1)).
+
+## Problem Description
+You are required to implement the `MinStack` class with the following functionalities:
+- `MinStack()`: Initializes the stack object.
+- `void push(int val)`: Pushes the element `val` onto the stack.
+- `void pop()`: Removes the element on the top of the stack.
+- `int top()`: Gets the top element of the stack.
+- `int getMin()`: Retrieves the minimum element in the stack.
+
+You must implement a solution with O(1) time complexity for each function.
+
+### Example:
+```plaintext
+Input:
+["MinStack","push","push","push","getMin","pop","top","getMin"]
+[[],[-2],[0],[-3],[],[],[],[]]
+
+Output:
+[null,null,null,null,-3,null,0,-2]
+
+Explanation:
+MinStack minStack = new MinStack();
+minStack.push(-2);
+minStack.push(0);
+minStack.push(-3);
+minStack.getMin(); // return -3
+minStack.pop();
+minStack.top();    // return 0
+minStack.getMin(); // return -2
