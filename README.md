@@ -229,7 +229,30 @@ The solution to this problem can be found in the source code provided in this re
 
 
 ### 206. Reverse Linked List
+
 Given the head of a singly linked list, reverse the list, and return the reversed list.
+
+### Examples:<br>
+Input: head = [1,2,3,4,5]<br>
+Output: [5,4,3,2,1]
+
+
+### Constraints:
+
+- The number of nodes in the list is in the range [0, 5000].
+- Node.val is in the range [-5000, 5000].
+
+## Approach
+
+To reverse a linked list, we'll need to iterate through the list while rearranging the pointers to reverse the direction of the links between nodes. We can use three pointers: one to keep track of the current node, one to keep track of the previous node, and one to keep track of the next node. 
+
+Initially, the previous node is set to `None`, the current node is set to the head of the list, and the next node is set to `None`. Then, we iterate through the list, updating the next node to the current node's next, setting the current node's next to the previous node, updating the previous node to the current node, and updating the current node to the next node. We repeat this process until we reach the end of the list. Finally, we return the previous node, which will be the new head of the reversed list.
+
+## Complexity Analysis
+
+- **Time Complexity:** O(n), where n is the number of nodes in the linked list. We traverse the entire list once.
+- **Space Complexity:** O(1), as we only use a constant amount of extra space for pointers.
+
 
 # 155. Min Stack
 
